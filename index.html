@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Extarnal css link -->
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Your Mart</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./image/logo.png" height="50" alt="logo"> Your mart</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Products</a>
+                  <a class="nav-link" href="#">Contract us</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <!-- Carousel -->
+    <div class="container ">
+        <div id="carouselExampleIndicators" class="carousel slide caro-bg" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-7">
+                            <h1>Bluetooth Headphone</h1>
+                            <p>Best bluetooth in best price</p>
+                            <h3 class="pricing">$130</h3>
+                            <button class="buy-now">Buy now</button>
+                        </div>
+                        <div class="col-md-5 d-flex justify-content-center">
+                            <img src="./image/c-headphone.png" class="d-block  " alt="...">
+                        </div>
+                    </div>
+              </div>
+              
+                <div class="carousel-item ">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-7">
+                            <h1>B-BOX Speaker</h1>
+                            <p>Best Sound quality experince with B-Box smart sound system</p>
+                            <h3 class="pricing">$330</h3>
+                            <button class="buy-now">Buy now</button>
+                        </div>
+                        <div class="col-md-5 d-flex justify-content-center">
+                            <img src="./image/c-speaker.png" class="d-block  " alt="...">
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="carousel-item ">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-7">
+                            <h1>Sony Smart TV</h1>
+                            <p>Enjoy the real experince with sony smart tv</p>
+                            <h3 class="pricing">$1130</h3>
+                            <button class="buy-now">Buy now</button>
+                        </div>
+                        <div class="col-md-5 d-flex justify-content-center">
+                            <img src="./image/c-tv.png" class="d-block  " alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    
+    
+    <div class="container catagori">
+
+        <div class="row ">
+            <div class="col-md-4 ">
+                <div class="cat1 d-flex justify-content-around align-items-center">
+                    <h3>shoes</h3>
+                    <img src="./image/cat-shoe.png" alt="">
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="cat2 d-flex justify-content-around align-items-center">
+                    <h3>Bags</h3>
+                    <img src="./image/cat-bag.png" alt="">
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="cat3 d-flex justify-content-around align-items-center">
+                    <h3>Watchs</h3>
+                    <img src="./image/cat-watch.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS bundle for Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
+
